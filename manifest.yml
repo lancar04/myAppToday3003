@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: myAppToday3003
+  host: myAppToday3003
+  disk_quota: 1024M
+  services:
+  - DBForMyAppToday3003
